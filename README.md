@@ -1,18 +1,18 @@
 # <Your product name>
-
-> Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
+ConsentLens
 
 ## Problem
-<3–5 sentences: who struggles with what today, and what your product changes.>
+Data science teams in India struggle to understand how the DPDP Act 2023 and DPDP Rules 2025 apply to their data and ML projects. They need to navigate lengthy legal documents and older IT laws to identify requirements for consent, data retention, and purpose limitation. Teams also risk exposing personal information when they paste customer data into AI tools for help. ConsentLens helps teams assess privacy compliance while masking personal data before it reaches an LLM.
 
 ## Who it is for
-<One or two real user types, for example "compliance officer at a gold-loan NBFC in Coimbatore".>
+<Data scientists and ML engineers at health-tech startups handling patient data.
+Privacy and compliance officers responsible for ensuring data projects follow India's data protection requirements.>
 
 ## Signature feature
-<One sentence: the feature only your product has.>
+A privacy-safe paste box that detects personal information in dataset schemas or sample rows, automatically masks sensitive values, and explains potential privacy concerns before the data is sent to an LLM.
 
 ## Hardest problem (my interview story)
-<In your own words, from your project card.>
+The hardest problem is preventing personal data leakage while still making the AI useful. Users may paste names, phone numbers, or Aadhaar-like numbers, and uploaded policy documents may contain prompt-injection attempts. ConsentLens must detect and mask personal information before LLM processing, treat uploaded documents as untrusted input, and test whether any raw personal data leaks through using a red-team dataset.
 
 ## Dataset
 | Source | Link | Documents | Pages | Licence / terms |
